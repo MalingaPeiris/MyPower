@@ -1,0 +1,273 @@
+#mainProductBlock {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#mainProductContainer {
+  width: 1920px;
+  min-width: 20%;
+  max-width: 100%;
+}
+
+#mainProductRow {
+}
+
+#mainProductLeft {
+  width: 960px;
+  min-width: 40%;
+  max-width: 100%;
+}
+
+#mainProductRight {
+  width: 960px;
+  min-width: 40%;
+  max-width: 100%;
+  padding-left: 5%;
+}
+
+#mainProductDisplay {
+  width: 960px;
+  min-width: 40%;
+  max-width: 100%;
+  margin: 0;
+}
+
+#mainProductImageSlider {
+  margin: 0;
+  width: 960px;
+  min-width: 40%;
+  max-width: 100%;
+}
+
+#mainProductPath {
+  margin-top: 50px;
+  margin-bottom: 33px;
+}
+
+#mainProductImage {
+  max-width: 100%;
+  min-width: 40%;
+  width: 768px;
+}
+
+.policyLinks {
+  display: flex;
+  margin-bottom: 25px;
+  height: 20px;
+}
+
+#deliveryPolicy {
+  text-align: left;
+  font: normal normal normal 18px/24px Lato;
+  letter-spacing: 0px;
+  color: #434343;
+  opacity: 1;
+}
+
+.policyLinksPara {
+  text-align: left;
+  font: normal normal normal 18px/24px Lato;
+  letter-spacing: 0px;
+  color: #434343;
+  opacity: 1;
+  margin-left: 30px;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+#policy {
+  margin-top: 26px;
+}
+
+#mainProductName {
+  margin-top: 112px;
+}
+
+#mainProductCategory {
+  text-align: left;
+  font: normal normal normal 20px/24px Lato;
+  letter-spacing: 0px;
+  color: #888888;
+  opacity: 1;
+  margin-bottom: 1px;
+}
+
+#mainProductNamePara {
+  text-align: left;
+  font: normal normal medium 35px/42px Lato;
+  letter-spacing: 0px;
+  color: #434343;
+  opacity: 1;
+  font-size: 35px;
+}
+
+.fa.fa-star {
+  background: #FFB900 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-color: rgb(255,255,255);
+  color: #ffb900;
+}
+
+#ratingColumn {
+  display: flex;
+}
+
+#reviews {
+  text-align: left;
+  font: italic normal normal 18px/22px Roboto;
+  letter-spacing: 0px;
+  color: #8D8C8C;
+  opacity: 1;
+  margin-left: 10px;
+  padding-top: -10px;
+}
+
+#price {
+  margin-top: 33px;
+}
+
+#priceColumn {
+  display: flex;
+}
+
+#discountPrice {
+  text-align: left;
+  font: normal normal medium 20px/24px Lato;
+  opacity: 1;
+  margin-right: 20px;
+  color: #434343;
+  font-size: 20px;
+  letter-spacing: 1.26px;
+  font-family: Lato, sans-serif;
+}
+
+#initialPrice {
+  text-align: left;
+  font: normal normal medium 17px/21px Lato;
+  letter-spacing: 1.07px;
+  color: #5B5B5B6E;
+  opacity: 1;
+  font-size: 17px;
+  margin-left: 14px;
+}
+
+#discount {
+  background-color: #ff0000;
+  height: 20px;
+  width: 40px;
+  background: #FF0000 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  opacity: 1;
+  margin-top: 5px;
+}
+
+#discountPercentage {
+  color: rgb(255,255,255);
+  text-align: left;
+  font: normal normal bold 14px/17px Lato;
+  letter-spacing: 0.88px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+#descriptionColumn {
+  margin-top: 46px;
+}
+
+#mainProductDescription {
+  text-align: left;
+  font: normal normal normal 16px/24px Lato;
+  letter-spacing: 0px;
+  color: #888888;
+  opacity: 1;
+  margin-bottom: 3px;
+}
+
+.mainProductSpecs {
+  text-align: left;
+  font: normal normal normal 16px/19px Lato;
+  letter-spacing: 0px;
+  color: #888888;
+  opacity: 1;
+  margin-bottom: 10px;
+}
+
+#addToCart {
+  margin-top: 30px;
+}
+
+#description {
+  padding-right: 15%;
+}
+
+#addToCartButton {
+  background: #146CDA 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 287px;
+  height: 43px;
+  text-align: center;
+  font: normal normal bold 18px/23px Muli;
+  letter-spacing: 0.36px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+#itemColumn {
+}
+
+.hrAddToCart {
+  max-width: 600px;
+  min-width: 40%;
+  margin-left: 0;
+}
+
+#addToWhishList {
+  margin-top: 30px;
+}
+
+#addToWishListPara {
+  font: normal normal normal 18px/22px Lato;
+  letter-spacing: 0px;
+  color: #707070;
+  text-transform: lowercase;
+  opacity: 1;
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+#addToWishListColumn {
+  display: flex;
+}
+
+#mainProductShareColumn {
+  display: flex;
+  margin-top: 20px;
+}
+
+#mainProductSharePara {
+  text-align: left;
+  font: normal normal normal 18px/22px Lato;
+  letter-spacing: 0px;
+  color: #888888;
+  opacity: 1;
+  margin-right: 25px;
+}
+
+.mainProductShareLink {
+  margin-right: 15px;
+}
+
+#twitter {
+  transform: matrix(0, 1, -1, 0, 0, 0);
+  margin-top: -7px;
+  margin-left: -3px;
+}
+
+#google {
+  transform: matrix(0, 1, -1, 0, 0, 0);
+  margin-top: -7px;
+}
+
