@@ -44,3 +44,178 @@
   outline: none;
 }
 
+#mainRowHeading {
+  max-width: 1100px;
+  min-width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #38a2ba;
+  width: 100%;
+  color: rgb(0,0,0);
+  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: o;
+}
+
+@media (min-width: 600px) {
+  #navBarDiv {
+    height: 60px;
+    background: #38a2ba;
+    max-width: 1920px;
+    width: 100%;
+    min-width: 320px;
+    padding-right: 20%;
+    padding-left: 20%;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+  }
+}
+
+@media (max-width: 600px) {
+  #navBarDiv {
+    height: 60px;
+    background: #38a2ba;
+    max-width: 1920px;
+    width: 100%;
+    min-width: 320px;
+    padding-right: 5%;
+    padding-left: 20%;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+  }
+}
+
+#mainRowHeadingColumnLeft {
+  min-width: 320px;
+  max-width: 35%;
+}
+
+#addDisplayColumnRight {
+  max-width: 100%;
+  padding: 5px;
+  min-width: 320px;
+}
+
+#addDisplayRow {
+  max-width: 1124px;
+  width: 100%;
+  min-width: 320px;
+  margin: 0px;
+}
+
+#mainRowHeadingColumnRight {
+  max-width: 60%;
+  padding: 0px;
+  min-width: 320px;
+}
+
+@media (max-width: 600px) {
+  .addPara {
+    padding-left: 20px;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    padding-right: 20px;
+  }
+}
+
+.addPara {
+  padding-left: 30px;
+  font-family: Lato, sans-serif;
+}
+
+.addHeadingDiv {
+  margin-bottom: 10px;
+  max-width: 700px;
+  min-width: 320px;
+  width: 100%;
+}
+
+.addDescDiv {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  min-width: 320px;
+  max-width: 100%;
+}
+
+.addHeadingPara {
+  text-align: left;
+  color: #434343;
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  min-width: 200px;
+  max-width: 500px;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .addHeadingPara {
+    text-align: left;
+    color: #434343;
+    padding-left: 30px;
+    font-size: 16px;
+  }
+}
+
+#mainDiv {
+  max-width: 1920px;
+  min-width: 320px;
+  width: 100%;
+  background: #f6f6f6;
+}
+
+#footerRow {
+  width: 100%;
+  max-width: 1100px;
+  min-width: 320px;
+  margin: 0px;
+}
+
+#footerPara {
+  width: 100%;
+  max-width: 900px;
+  min-width: 300px;
+  text-align: center;
+  font-size: 14px;
+  font-family: Lato, sans-serif;
+}
+
+#footerColumn {
+  background: rgb(255,255,255);
+  width: 100%;
+  max-width: 1100px;
+  min-width: 320px;
+}
+
+#addColumnRight {
+  min-width: 320px;
+  max-width: 100%;
+}
+
+#addColumnLeft {
+  min-width: 320px;
+  max-width: 100%;
+  border-right: 1px solid rgb(236,236,236) ;
+}
+
+@media (max-width: 768px) {
+  #addColumnLeft {
+    min-width: 320px;
+    max-width: 100%;
+    display: none;
+  }
+}
+
+.navbar.navbar-light.navbar-expand-md {
+  padding-top: 15px;
+  margin-top: 17px;
+  margin-left: 14px;
+  border-style: solid;
+  border-color: #d4d9dd;
+  background: #f7f7f7;
+}
+

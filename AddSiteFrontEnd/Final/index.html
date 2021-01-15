@@ -8,142 +8,155 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Black">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Off-Canvas-Sidebar-Drawer-Navbar.css">
     <link rel="stylesheet" href="assets/css/Pretty-Search-Form.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
-    <div style="height: 60px;background: #38a2ba;">
-        <div class="mainheadbody"><button class="btn btn-primary" type="button" style="background: rgb(14,190,190);">Post Your Add</button><button class="btn btn-primary" type="button" style="background: rgb(10,133,133);margin-left: 14px;">Login</button>
-            <h3 class="text-right"
-                style="margin-top: -38px;margin-right: 11px;color: #4e565c;">Site Name</h3>
-        </div>
+<body><nav class="navbar navbar-dark fixed-top bg-safe off-canvas" data-right-drawer="0" data-open-drawer="1">
+    <div class="container-fluid flex-column"><button class="btn btn-dark drawer-knob" type="button" data-open="drawer"><i class="fas fa-bars"></i></button>
+        <div class="d-flex justify-content-between brand-line"><a class="navbar-brand" href="#">Brand</a><button class="btn btn-dark" type="button" data-dismiss="drawer"><span class="sr-only">Toggle Navigation </span><i class="fas fa-times"></i></button></div>
+        <ul class="nav navbar-nav flex-column drawer-menu">
+            <li class="nav-item"><a class="nav-link active" href="#">General (500)</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Mobile (50)</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Electronic (20)</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Hotel &amp; Room (36)</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Jobs (33)</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Service (22)</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Home &amp; Apartments (42)</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Health Wellbeing (25)</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Travel Tourism (78)</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Tools (24)</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Other Service (54)</a></li>
+        </ul>
     </div>
-    <div class="mianbody">
-        <div class="row" style="max-width: 1100px;min-width: 375px;margin-right: auto;margin-left: auto;background: #38a2ba;">
-            <div class="col" style="min-width: 375px;max-width: 35%;"><i class="fa fa-location-arrow" style="font-size: 32px;margin-top: 41px;margin-right: 14px;"></i><a href="#" style="font-size: 32px;color: #4e565c;background: rgba(56,162,186,0.12);font-family: 'Roboto Condensed', sans-serif;font-style: normal;">Location</a></div>
-            <div
-                class="col" style="min-width: 375px;max-width: 60%;padding-left: 6px;padding-right: 39px;">
-                <form class="search-form" style="min-width: 335px;max-width: 600px;">
-                    <div class="input-group">
-                        <div class="input-group-prepend"><span class="input-group-text" style="font-family: 'Archivo Black', sans-serif;color: #ffffff;background: #38a2ba;"><i class="fa fa-search"></i></span></div><input class="form-control" type="text" placeholder="I am looking for..">
-                        <div
-                            class="input-group-append"><button class="btn btn-light" type="button" style="background: rgb(14,190,190);color: rgb(255,255,255);font-size: 17px;font-family: 'Archivo Black', sans-serif;">Search </button></div>
+</nav>
+    <div class="d-flex justify-content-between align-items-center align-content-center" id="navBarDiv">
+        <div>
+            <p id="brandPara">Brand</p>
         </div>
-        </form>
+        <div class="d-flex" id="loginDiv"><button class="btn btn-primary" id="addPostButton" type="button" style="background: rgb(10,133,133);">PUBLISH</button><button class="btn btn-primary" id="loginButton" type="button">LOGIN</button><i class="fa fa-plus" id="iconPublish"></i><i class="icon-login"
+                id="iconLogin"></i></div>
     </div>
-    </div>
-    <div class="row">
-        <div class="col-4" style="min-width: 375px;">
-            <nav class="navbar navbar-light navbar-expand-md" style="padding-top: 15px;margin-top: 17px;margin-left: 14px;border-style: solid;border-color: #d4d9dd;background: #f7f7f7;">
-                <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navcol-1">
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item"><a class="nav-link active" href="#" style="width: 250px;">General (500)</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#" style="width: 250px;">Mobile (50)</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#" style="width: 250px;">Eletronics (20)</a><a class="nav-link" href="#" style="width: 250px;">Hotel &amp; Room (36)</a><a class="nav-link" href="#" style="width: 250px;">Jobs (33)</a><a class="nav-link"
-                                    href="#" style="width: 250px;">Service (22)</a><a class="nav-link" href="#" style="width: 250px;">Home &amp; Apartments (42)</a><a class="nav-link" href="#" style="width: 250px;">Health Welbeing (25)</a><a class="nav-link"
-                                    href="#" style="width: 250px;">Travel Tourism (78)</a><a class="nav-link" href="#" style="width: 250px;">Tools (24)</a><a class="nav-link" href="#" style="width: 250px;">Other Service (54)</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div class="col">
-            <div class="row">
-                <div class="col" style="padding-right: 31px;padding-left: 17px;padding-top: 14px;padding-bottom: 3px;">
-                    <div class="adddiv">
-                        <h4 style="margin-right: 0px;margin-left: 11px;">This is test Add</h4><img class="addimg" src="assets/img/loyverse-main-en.png">
-                        <p style="margin-left: 171px;margin-top: -86px;">wkefgdsj jsdfgh djshf jhdsfj kds fjghdskjh dskfjh dskfjh kdsjfhdksjfh kdsj hkdsj hdksj hdskj hk jh kjsd hdskj hkj</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col" style="padding-right: 31px;padding-left: 17px;padding-top: 14px;padding-bottom: 3px;">
-                    <div class="adddiv">
-                        <h4 style="margin-right: 0px;margin-left: 11px;">This is test Add</h4><img class="addimg" src="assets/img/loyverse-main-en.png">
-                        <p style="margin-left: 171px;margin-top: -86px;">wkefgdsj jsdfgh djshf jhdsfj kds fjghdskjh dskfjh dskfjh kdsjfhdksjfh kdsj hkdsj hdksj hdskj hk jh kjsd hdskj hkj</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col" style="padding-right: 31px;padding-left: 17px;padding-top: 14px;padding-bottom: 3px;">
-                    <div class="adddiv">
-                        <h4 style="margin-right: 0px;margin-left: 11px;">This is test Add</h4><img class="addimg" src="assets/img/loyverse-main-en.png">
-                        <p style="margin-left: 171px;margin-top: -86px;">wkefgdsj jsdfgh djshf jhdsfj kds fjghdskjh dskfjh dskfjh kdsjfhdksjfh kdsj hkdsj hdksj hdskj hk jh kjsd hdskj hkj</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col" style="padding-right: 31px;padding-left: 17px;padding-top: 14px;padding-bottom: 3px;">
-                    <div class="adddiv">
-                        <h4 style="margin-right: 0px;margin-left: 11px;">This is test Add</h4><img class="addimg" src="assets/img/loyverse-main-en.png">
-                        <p style="margin-left: 171px;margin-top: -86px;">wkefgdsj jsdfgh djshf jhdsfj kds fjghdskjh dskfjh dskfjh kdsjfhdksjfh kdsj hkdsj hdksj hdskj hk jh kjsd hdskj hkj</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col" style="padding-right: 31px;padding-left: 17px;padding-top: 14px;padding-bottom: 3px;">
-                    <div class="adddiv">
-                        <h4 style="margin-right: 0px;margin-left: 11px;">This is test Add</h4><img class="addimg" src="assets/img/loyverse-main-en.png">
-                        <p style="margin-left: 171px;margin-top: -86px;">wkefgdsj jsdfgh djshf jhdsfj kds fjghdskjh dskfjh dskfjh kdsjfhdksjfh kdsj hkdsj hdksj hdskj hk jh kjsd hdskj hkj</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col" style="padding-right: 31px;padding-left: 17px;padding-top: 14px;padding-bottom: 3px;">
-                    <div class="adddiv">
-                        <h4 style="margin-right: 0px;margin-left: 11px;">This is test Add</h4><img class="addimg" src="assets/img/loyverse-main-en.png">
-                        <p style="margin-left: 171px;margin-top: -86px;">wkefgdsj jsdfgh djshf jhdsfj kds fjghdskjh dskfjh dskfjh kdsjfhdksjfh kdsj hkdsj hdksj hdskj hk jh kjsd hdskj hkj</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col" style="padding-right: 31px;padding-left: 17px;padding-top: 14px;padding-bottom: 3px;">
-                    <div class="adddiv">
-                        <h4 style="margin-right: 0px;margin-left: 11px;">This is test Add</h4><img class="addimg" src="assets/img/loyverse-main-en.png">
-                        <p style="margin-left: 171px;margin-top: -86px;">wkefgdsj jsdfgh djshf jhdsfj kds fjghdskjh dskfjh dskfjh kdsjfhdksjfh kdsj hkdsj hdksj hdskj hk jh kjsd hdskj hkj</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col" style="padding-right: 31px;padding-left: 17px;padding-top: 14px;padding-bottom: 3px;">
-                    <div class="adddiv">
-                        <h4 style="margin-right: 0px;margin-left: 11px;">This is test Add</h4><img class="addimg" src="assets/img/loyverse-main-en.png">
-                        <p style="margin-left: 171px;margin-top: -86px;">wkefgdsj jsdfgh djshf jhdsfj kds fjghdskjh dskfjh dskfjh kdsjfhdksjfh kdsj hkdsj hdksj hdskj hk jh kjsd hdskj hkj</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col" style="padding-right: 31px;padding-left: 17px;padding-top: 14px;padding-bottom: 3px;">
-                    <div class="adddiv">
-                        <h4 style="margin-right: 0px;margin-left: 11px;">This is test Add</h4><img class="addimg" src="assets/img/loyverse-main-en.png">
-                        <p style="margin-left: 171px;margin-top: -86px;">wkefgdsj jsdfgh djshf jhdsfj kds fjghdskjh dskfjh dskfjh kdsjfhdksjfh kdsj hkdsj hdksj hdskj hk jh kjsd hdskj hkj</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col" style="padding-right: 31px;padding-left: 17px;padding-top: 14px;padding-bottom: 3px;">
-                    <div class="adddiv">
-                        <h4 style="margin-right: 0px;margin-left: 11px;">This is test Add</h4><img class="addimg" src="assets/img/loyverse-main-en.png">
-                        <p style="margin-left: 171px;margin-top: -86px;">wkefgdsj jsdfgh djshf jhdsfj kds fjghdskjh dskfjh dskfjh kdsjfhdksjfh kdsj hkdsj hdksj hdskj hk jh kjsd hdskj hkj</p>
-                    </div>
+    <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center" id="searchDivPhone">
+        <div class="row d-lg-flex justify-content-lg-center align-items-lg-center padMar" id="searchRow1">
+            <div class="col padMar">
+                <div class="input-group" id="inputGroup1">
+                    <div class="input-group-prepend" id="addon"></div><input class="form-control autocomplete" type="text" id="searchInput" placeholder="I am looking for. . .">
+                    <div class="input-group-append" id="append"><button class="btn btn-warning d-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
+                            id="searchButton" type="button"><i class="fa fa-search" id="searchIcon"></i></button></div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
-    <div class="footerBody" style="max-width: 1100px;min-width: 375px;margin-right: auto;margin-left: auto;margin-top: 39px;">
-        <div class="row" style="padding-right: 42px;padding-left: 19px;">
-            <div class="col" style="border-style: solid;border-color: #38a2ba;border-radius: 10px;background: rgba(56,162,186,0.49);box-shadow: 0px 0px 6px 1px #38a2ba;">
-                <p><br>Please be very careful about payments (Bank, Mobile, etc). Do a video call or get identity details before transfer money.&nbsp;<br>We only provide online advertising.<br> <strong>We are not responsible for your transactions.</strong>&nbsp;<br><br></p>
+    <div class="d-flex d-xl-flex flex-column justify-content-center align-items-center justify-content-xl-center" id="mainDiv">
+        <div class="mainbody">
+            <div class="d-flex justify-content-around align-items-xl-center" id="locationSearchDiv">
+                <div class="d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center" id="locationDiv">
+                    <p id="locationPara"><i class="fa fa-map-marker"></i>&nbsp;</p>
+                    <div class="dropdown" id="locationDropDown"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" id="locationButton" type="button">Location&nbsp;</button>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                    </div>
+                </div>
+                <div class="d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-md-center align-items-md-center justify-content-lg-center justify-content-xl-center align-items-xl-center" id="searchDiv">
+                    <div class="row d-lg-flex justify-content-lg-center align-items-lg-center padMar" id="searchRow">
+                        <div class="col padMar">
+                            <div class="input-group" id="inputGroup">
+                                <div class="input-group-prepend" id="addon"></div><input class="form-control autocomplete" type="text" id="searchInput" placeholder="I am looking for. . .">
+                                <div class="input-group-append" id="append"><button class="btn btn-warning d-md-flex d-lg-flex d-xl-flex justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center" id="searchButton"
+                                        type="button"><i class="fa fa-search" id="searchIcon"></i></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr id="hrAdd">
+            <div class="row d-flex justify-content-between align-items-start align-content-start" id="addDisplayRow">
+                <div class="col-4" id="addColumnLeft">
+                    <nav class="navbar navbar-light navbar-expand-md">
+                        <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                            <div class="collapse navbar-collapse" id="navcol-1">
+                                <ul class="nav navbar-nav">
+                                    <li class="nav-item"><a class="nav-link active" href="#" style="width: 250px;">General (500)</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#" style="width: 250px;">Mobile (50)</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#" style="width: 250px;">Eletronics (20)</a><a class="nav-link" href="#" style="width: 250px;">Hotel &amp; Room (36)</a><a class="nav-link" href="#" style="width: 250px;">Jobs (33)</a><a class="nav-link"
+                                            href="#" style="width: 250px;">Service (22)</a><a class="nav-link" href="#" style="width: 250px;">Home &amp; Apartments (42)</a><a class="nav-link" href="#" style="width: 250px;">Health Welbeing (25)</a><a class="nav-link"
+                                            href="#" style="width: 250px;">Travel Tourism (78)</a><a class="nav-link" href="#" style="width: 250px;">Tools (24)</a><a class="nav-link" href="#" style="width: 250px;">Other Service (54)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col d-flex d-xl-flex flex-column justify-content-center justify-content-xl-center" id="addColumnRight">
+                    <div class="row">
+                        <div class="col">
+                            <div class="d-flex addDiv">
+                                <div class="d-xl-flex justify-content-xl-center addImgDiv"><img class="addImg" src="assets/img/loyverse-main-en.png"></div>
+                                <div class="d-flex flex-column addDetailDiv">
+                                    <p class="addHeading">THIS&nbsp; IS A TEST ADD</p>
+                                    <p class="addDescription">This is an test add for the test add website.</p>
+                                </div>
+                            </div>
+                            <hr class="addHr">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="d-flex addDiv">
+                                <div class="d-xl-flex justify-content-xl-center addImgDiv"><img class="addImg" src="assets/img/loyverse-main-en.png"></div>
+                                <div class="d-flex flex-column addDetailDiv">
+                                    <p class="addHeading">THIS&nbsp; IS A TEST ADD</p>
+                                    <p class="addDescription">This is an test add for the test add website.</p>
+                                </div>
+                            </div>
+                            <hr class="addHr">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="d-flex addDiv">
+                                <div class="d-xl-flex justify-content-xl-center addImgDiv"><img class="addImg" src="assets/img/loyverse-main-en.png"></div>
+                                <div class="d-flex flex-column addDetailDiv">
+                                    <p class="addHeading">THIS&nbsp; IS A TEST ADD</p>
+                                    <p class="addDescription">This is an test add for the test add website.</p>
+                                </div>
+                            </div>
+                            <hr class="addHr">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="d-flex addDiv">
+                                <div class="d-xl-flex justify-content-xl-center addImgDiv"><img class="addImg" src="assets/img/loyverse-main-en.png"></div>
+                                <div class="d-flex flex-column addDetailDiv">
+                                    <p class="addHeading">THIS&nbsp; IS A TEST ADD</p>
+                                    <p class="addDescription">This is an test add for the test add website.</p>
+                                </div>
+                            </div>
+                            <hr class="addHr">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerBody">
+            <div class="row d-xl-flex" id="footerRow">
+                <div class="col d-xl-flex justify-content-xl-center" id="footerColumn">
+                    <p id="footerPara"><br>Please be very careful about payments (Bank, Mobile, etc). Do a video call or get identity details before transfer money.&nbsp;<br>We only provide online advertising.<br> <strong>We are not responsible for your transactions.</strong>&nbsp;<br><br></p>
+                </div>
             </div>
         </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Off-Canvas-Sidebar-Drawer-Navbar.js"></script>
+    <script src="assets/js/Off-Canvas-Sidebar-Drawer-Navbar-1.js"></script>
 </body>
 
 </html>

@@ -1,27 +1,21 @@
-.mianbody {
+.mainbody {
   max-width: 1100px;
-  min-width: 375px;
-  margin-right: auto;
-  margin-left: auto;
+  min-width: 320px;
   margin-top: 83px;
-  border: 3px solid #38a2ba ;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px 1px #38a2ba;
+  width: 100%;
+  padding: 1px;
+  background: #ffffff;
 }
 
 .addimg {
-  width: 150px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
   margin-left: 10px;
-}
-
-.adddiv {
-  background: rgba(56,162,186,0.12);
-  border-style: solid;
-  border-color: rgb(56,162,186);
-  border-radius: 15px;
-  box-shadow: 0px 0px 6px 0px #38a2ba;
-  min-height: 148px;
+  object-fit: contain;
+  max-width: 150px;
+  min-width: 20px;
+  max-height: 100px;
 }
 
 .mainheadbody {
@@ -31,11 +25,284 @@
   margin-left: auto;
   padding-top: 11px;
   padding-left: 22px;
+  width: 100%;
 }
 
 .footerBody {
+  max-width: 1100px;
+  min-width: 320px;
+  margin-top: 100px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .addpostfrm {
+}
+
+#addColumnRight {
+}
+
+.addDiv {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.addImg {
+  max-width: 150px;
+  max-height: 100px;
+  height: 100%;
+  width: 100%;
+  min-width: 20%;
+  min-height: 20%;
+  object-fit: contain;
+}
+
+.addDetailDiv {
+  padding-left: 30px;
+  width: 100%;
+}
+
+.addHeading {
+  color: #434343;
+  font-family: Lato, sans-serif;
+  font-weight: 600;
+  text-align: left;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .addHeading {
+    color: #434343;
+    font-family: Lato, sans-serif;
+    font-weight: 600;
+    text-align: left;
+    font-size: 14px;
+  }
+}
+
+.addDescription {
+  font-family: Lato, sans-serif;
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  .addDescription {
+    font-family: Lato, sans-serif;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+}
+
+.addImgDiv {
+  width: 40%;
+}
+
+.addHr {
+  min-width: 180px;
+  max-width: 600px;
+  width: 100%;
+}
+
+#loginButton {
+  background: rgb(10,133,133);
+  margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+  #loginButton {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  #addPostButton {
+    display: none;
+  }
+}
+
+#brandPara {
+  color: rgb(255,255,255);
+  font-size: 36px;
+  text-align: left;
+  font-family: Lato, sans-serif;
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  #brandPara {
+    color: rgb(255,255,255);
+    font-size: 24px;
+    text-align: left;
+    font-family: Lato, sans-serif;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 600px) {
+  #iconLogin {
+    font-size: 16px;
+    border-style: none;
+    color: rgb(255,255,255);
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  #iconLogin {
+    font-size: 16px;
+    border-style: none;
+    color: rgb(255,255,255);
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  #iconPublish {
+    color: rgb(255,255,255);
+    font-size: 16px;
+    margin-right: 20px;
+    display: block;
+  }
+}
+
+@media (min-width: 600px) {
+  #iconPublish {
+    color: rgb(255,255,255);
+    font-size: 20px;
+    margin-right: 10px;
+    display: none;
+  }
+}
+
+#loginDiv {
+}
+
+#locationDiv {
+}
+
+@media (min-width: 500px) {
+  #locationSearchDiv {
+    background: #ffffff;
+    height: 45px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  #locationSearchDiv {
+    background: #fff;
+    height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  #searchDiv {
+    display: none;
+  }
+}
+
+.btn-warning:not(:disabled):not(.disabled).active, .btn-warning:not(:disabled):not(.disabled):active, .show > .btn-warning.dropdown-toggle {
+  color: #212529;
+  background-color: #38a2ba;
+  border-color: #38a2ba;
+}
+
+#searchIcon {
+  color: #fff;
+}
+
+#searchButton {
+  background: #38a2ba;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 30px;
+}
+
+.btn-warning:not(:disabled):not(.disabled).active:focus, .btn-warning:not(:disabled):not(.disabled):active:focus, .show > .btn-warning.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem rgba(56,162,186,.5);
+}
+
+#append {
+}
+
+#inputGroup {
+}
+
+#addon {
+}
+
+#searchInput {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  height: 30px;
+  width: 300px;
+}
+
+@media (max-width: 768px) {
+  #searchInput {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    height: 30px;
+    width: 200px;
+  }
+}
+
+#searchRow {
+}
+
+#locationPara {
+  margin: 0;
+  color: rgb(56,162,186);
+  font-family: Lato, sans-serif;
+  text-align: center;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  #searchDivPhone {
+    height: 45px;
+    background-color: #38a2ba;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: block;
+  }
+}
+
+#hrAdd {
+  margin: 0;
+}
+
+#locationDropDown {
+  color: rgb(56,162,186);
+}
+
+#locationButton {
+  background: rgb(255,255,255);
+  color: rgb(56,162,186);
+  border-color: rgb(255,255,255);
+}
+
+@media (max-width: 768px) {
+  #searchRow1 {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  #searchRow1 {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  #inputGroup1 {
+    display: none;
+  }
 }
 
