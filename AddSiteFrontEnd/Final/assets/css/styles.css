@@ -1,0 +1,41 @@
+.mianbody {
+  max-width: 1100px;
+  min-width: 375px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 83px;
+  border: 3px solid #38a2ba ;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 1px #38a2ba;
+}
+
+.addimg {
+  width: 150px;
+  height: 100px;
+  margin-left: 10px;
+}
+
+.adddiv {
+  background: rgba(56,162,186,0.12);
+  border-style: solid;
+  border-color: rgb(56,162,186);
+  border-radius: 15px;
+  box-shadow: 0px 0px 6px 0px #38a2ba;
+  min-height: 148px;
+}
+
+.mainheadbody {
+  max-width: 1100px;
+  min-width: 375px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 11px;
+  padding-left: 22px;
+}
+
+.footerBody {
+}
+
+.addpostfrm {
+}
+
