@@ -1,0 +1,240 @@
+.navigation-clean {
+  background: #fff;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  color: #434343;
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0;
+  box-shadow: 0px 4px 14px #0000007A;
+}
+
+@media (min-width:768px) {
+  .navigation-clean {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.navigation-clean .navbar-brand {
+  font-weight: bold;
+  color: inherit;
+}
+
+.navigation-clean .navbar-brand:hover {
+  color: #222;
+}
+
+.navigation-clean .navbar-toggler {
+  border-color: #ddd;
+}
+
+.navigation-clean .navbar-toggler:hover, .navigation-clean .navbar-toggler:focus {
+  background: none;
+}
+
+.navigation-clean .navbar-toggler {
+  color: #888;
+}
+
+.navigation-clean .navbar-collapse, .navigation-clean .form-inline {
+  border-top-color: #ddd;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link.active, .navigation-clean.navbar-light .navbar-nav .nav-link.active:focus, .navigation-clean.navbar-light .navbar-nav .nav-link.active:hover {
+  color: #8f8f8f;
+  box-shadow: none;
+  background: none;
+  pointer-events: none;
+}
+
+.navigation-clean.navbar .navbar-nav .nav-link {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link {
+  color: #465765;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link:focus, .navigation-clean.navbar-light .navbar-nav .nav-link:hover {
+  color: #37434d !important;
+  background-color: transparent;
+}
+
+.navigation-clean .navbar-nav > li > .dropdown-menu {
+  margin-top: -5px;
+  box-shadow: none;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.navigation-clean .dropdown-menu .dropdown-item:focus, .navigation-clean .dropdown-menu .dropdown-item {
+  line-height: 2;
+  color: #37434d;
+}
+
+.navigation-clean .dropdown-menu .dropdown-item:focus, .navigation-clean .dropdown-menu .dropdown-item:hover {
+  background: #eee;
+  color: inherit;
+}
+
+#navBarBlock {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  max-width: 1920px;
+  min-width: 20%;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+  margin-top: 5px;
+}
+
+#navBarlogo {
+  max-width: 84px;
+  min-width: 5%;
+  max-height: 84px;
+  min-height: 5%;
+  padding: 0;
+  margin: 0;
+}
+
+#logo {
+  max-width: 84px;
+  min-width: 5%;
+  min-height: 5%;
+  max-height: 84px;
+}
+
+#navBar {
+  min-width: 20%;
+  max-width: 1920px;
+}
+
+#navcol-1 {
+  max-width: 1920px;
+  min-width: 375px;
+  background-color: #ffffff;
+  min-height: 40%;
+}
+
+#homeLink {
+  text-align: left;
+  font: normal normal normal 17px/21px Lato;
+  letter-spacing: 0px;
+  color: #9B235D;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+#productsDropDown {
+  text-align: left;
+  font: normal normal normal 17px/21px Lato;
+  letter-spacing: 0px;
+  color: #434343;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+#adsDropDown {
+  text-align: left;
+  font: normal normal normal 17px/21px Lato;
+  letter-spacing: 0px;
+  color: #434343;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+#contactUsLink {
+  text-align: left;
+  font: normal normal normal 17px/21px Lato;
+  letter-spacing: 0px;
+  color: #434343;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+#searchIcon {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color: #9b235d;
+  font-size: 20px;
+}
+
+#cartLink {
+  width: 37px;
+  height: 32px;
+  padding: 0;
+}
+
+#cartImage {
+  width: 37px;
+  height: 32px;
+}
+
+#cartPrice {
+  padding-top: 10px;
+  text-align: left;
+  font: normal normal 600 13px/17px Segoe UI;
+  letter-spacing: 0px;
+  color: #434343;
+  opacity: 1;
+  padding-left: 5px;
+}
+
+#cartAmount {
+  color: #465765;
+  background-color: #ff0000;
+  border-radius: 200px;
+  width: 15px;
+  position: absolute;
+  height: 15px;
+  margin-left: 28px;
+  margin-top: -12px;
+}
+
+#cartAmountPara {
+  text-align: left;
+  font: normal normal 600 11px/15px Segoe UI;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+body {
+}
+
+#navBarToggle {
+  background-color: #ffffff;
+}
+
+@media (max-width: 800px) {
+  #iotHeading {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  #marketHeading {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  #enterHeading {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  #printingHeading {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  #posHeading {
+    font-size: 20px;
+  }
+}
+

@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/best-carousel-slide.css">
+    <link rel="stylesheet" href="assets/css/Footer-Clean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Minimal-tabs-1.css">
+    <link rel="stylesheet" href="assets/css/Minimal-tabs.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/styles-1.css">
+    <link rel="stylesheet" href="assets/css/styles2.css">
+    <link rel="stylesheet" href="assets/css/Team-Boxed.css">
+</head>
+
+<body>
+    <div id="navBarBlock">
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean" id="navBar">
+            <div class="container"><a class="navbar-brand" id="navBarlogo" href="#"><img id="logo" src="assets/img/LogoFinal.png"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" id="navBarToggle"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" id="homeLink" href="#">HOME</a></li>
+                        <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" id="productsDropDown" href="#">PRODUCTS</a>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                        </li>
+                        <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" id="adsDropDown" href="#">ADS</a>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                        </li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" id="contactUsLink" href="#">CONTACT US</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#"><i class="fa fa-search" id="searchIcon"></i></a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" id="cartLink" href="#"><img id="cartImage" src="assets/img/buy2.svg"><div id="cartAmount"><p class="text-center" id="cartAmountPara">5</p></div></a></li>
+                        <li class="nav-item" role="presentation">
+                            <p id="cartPrice">2000.00 lkr</p>
+                        </li>
+                    </ul>
+            </div>
+    </div>
+    </nav>
+    </div><div class="page-header header-filter">
+        <img src="/public/assets/img/cover-bg.png">
+    </div>
+    <div class="main main-raised">
+        <div class="profile-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="profile text-left">
+                            <div class="avatar">
+                                <img src="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU0NjQzOTk4OTQ4OTkyMzQy/ansel-elgort-poses-for-a-portrait-during-the-baby-driver-premiere-2017-sxsw-conference-and-festivals-on-march-11-2017-in-austin-texas-photo-by-matt-winkelmeyer_getty-imagesfor-sxsw-square.jpg" class="img-raised rounded-circle img-fluid">
+                            </div>
+                            <div class="name">
+                                <h3 class="title font-weight-normal">Christian Louboutin</h3>
+                                <h6>Country</h6>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    Lorem ipsum dolor sit amet, consetetur
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="main-nav-tabs nav nav-tabs text-uppercase border-0" id="profile-tab" role="tablist">
+                    <li class="nav-item text-center mx-auto" role="presentation">
+                        <a class="nav-link purple border-0 active" id="purchase-history-tab" data-toggle="tab" href="#purchase-history" role="tab" aria-controls="purchase-history" aria-selected="true">purchase history</a>
+                    </li>
+                    <li class="nav-item text-center mx-auto" role="presentation">
+                        <a class="nav-link purple border-0" id="wishlist-tab" data-toggle="tab" href="#wishlist" role="tab" aria-controls="wishlist" aria-selected="false">wishlist</a>
+                    </li>
+                    <li class="nav-item text-center mx-auto" role="presentation">
+                        <a class="nav-link purple border-0" id="personal-details-tab" data-toggle="tab" href="#personal-details" role="tab" aria-controls="personal-details" aria-selected="false">personal details</a>
+                    </li>
+                    <li class="nav-item text-center mx-auto" role="presentation">
+                        <a class="nav-link purple border-0" id="password-tab" data-toggle="tab" href="#password" role="tab" aria-controls="password" aria-selected="false">password</a>
+                    </li>
+                    <li class="nav-item text-center mx-auto" role="presentation">
+                        <a class="nav-link purple border-0" id="delivery-details-tab" data-toggle="tab" href="#delivery-details" role="tab" aria-controls="delivery-details" aria-selected="false">delivery details</a>
+                    </li>
+                    <li class="nav-item text-center mx-auto" role="presentation">
+                        <a class="nav-link purple border-0" id="user-ads-tab" data-toggle="tab" href="#user-ads" role="tab" aria-controls="user-ads" aria-selected="false">User Ads</a>
+                    </li>
+                    <li class="nav-item text-center mx-auto" role="presentation">
+                        <a class="nav-link purple border-0" id="add-post-tab" data-toggle="tab" href="#add-post" role="tab" aria-controls="add-post" aria-selected="false">ADD Post</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="w-100 bg-light mt-1 px-1 py-5 p-md-5">
+                <div class="tab-content p-3 px-md-5" id="profile-tab-content">
+                    <div class="tab-pane fade show active" id="purchase-history" role="tabpanel" aria-labelledby="purchase-history-tab">
+                        <div class="row">
+                            <div class="col-8 col-md-3">
+                                <div class="form-group my-auto">
+                                    <input type="text" name="keyword" id="keyword" class="form-control" placeholder="type to filter orders...." aria-describedby="keyword">
+                                </div>
+                            </div>
+                            <button class="btn btn-inverse btn-primary btn-sm">
+                                <i class="fa fa-filter"></i>&nbsp;&nbsp;filter
+                            </button>
+                        </div>
+                        <div class="row mt-5 overflow-auto">
+                            <table class="table">
+                                <thead>
+                                    <tr class="text-center">
+                                        <th scope="col">Image</th>
+                                        <th scope="col">Item</th>
+                                        <th scope="col">Delivery Address</th>
+                                        <th scope="col">Order Id</th>
+                                        <th scope="col">Order Date</th>
+                                        <th scope="col">Cost</th>
+                                        <th scope="col">Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="text-center">
+                                        <th scope="row"><img src="/public/assets/img/tv.png"></th>
+                                        <td>Item Name</td>
+                                        <td>Address</td>
+                                        <td>#00001</td>
+                                        <td>10/10/2020</td>
+                                        <td>RS.1000.00</td>
+                                        <td class="position-relative">
+                                            <span class="tick red"></span>
+                                            track
+                                        </td>
+                                    </tr>
+                                    <tr class="text-center">
+                                        <th scope="row"><img src="/public/assets/img/tv.png"></th>
+                                        <td>Item Name</td>
+                                        <td>Address</td>
+                                        <td>#00001</td>
+                                        <td>10/10/2020</td>
+                                        <td>RS.1000.00</td>
+                                        <td class="position-relative">
+                                            <span class="tick green"></span>
+                                            delivered
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="wishlist" role="tabpanel" aria-labelledby="wishlist-tab">
+                        <div class="row">
+                            <div class="col-8 col-md-3">
+                                <div class="form-group my-auto">
+                                    <input type="text" name="keyword" id="keyword" class="form-control" placeholder="type to filter orders...." aria-describedby="keyword">
+                                </div>
+                            </div>
+                            <button class="btn btn-inverse btn-primary btn-sm">
+                                <i class="fa fa-filter"></i>&nbsp;&nbsp;filter
+                            </button>
+                        </div>
+                        <div class="row mt-5 overflow-auto">
+                            <table class="table">
+                                <thead>
+                                    <tr class="text-center">
+                                        <th scope="col">Image</th>
+                                        <th scope="col">Product Name</th>
+                                        <th scope="col">Qty</th>
+                                        <th scope="col">Unit Price</th>
+                                        <th scope="col">Sub Total</th>
+                                        <th scope="col">Add to cart</th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="text-center">
+                                        <th scope="row"><img src="/public/assets/img/tv.png"></th>
+                                        <td>Item Name</td>
+                                        <td>
+                                            <div class="input-group input-group-sm input-group-custom mb-3 mx-auto">
+                                                <div class="input-group-prepend">
+                                                    <button class="btn input-group-text bg-white border-right-0">-</button>
+                                                </div>
+                                                <input type="number" class="form-control" min="0" value="1">
+                                                <div class="input-group-append">
+                                                    <button class="btn input-group-text bg-white border-left-0">+</button>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>RS.1000.00</td>
+                                        <td>RS.1000.00</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-sm">
+                                                ADD TO CART
+                                            </button>
+                                            <button class="btn btn-danger btn-sm">
+                                                REMOVE
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade px-2 px-md-5" id="personal-details" role="tabpanel" aria-labelledby="personal-details-tab">
+                        <div class="row pb-4 border-bottom">
+                            <div class="col-12 col-lg-6 px-2 px-md-5 my-auto">
+                                <h6 class="font-weight-normal">Account Information</h6>
+                                <small class="font-weight-normal color-light-grey">Change your personal
+                                    information</small>
+                            </div>
+                            <div class="col-12 col-lg-6 px-2 px-md-5 mt-auto d-none d-lg-block">
+                                <h6 class="font-weight-normal mb-0">Membership Status</h6>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-6 pt-4">
+                                <div class="row py-2">
+                                    <div class="col-12 px-md-5 my-auto">
+                                        <div class="form-group row">
+                                            <label for="fName" class="col-12 col-lg-4 my-auto px-0">First Name</label>
+                                            <input type="text" name="fName" id="fName" class="form-control col-12 col-lg-8" placeholder="First Name" aria-describedby="fName-helper">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-2">
+                                    <div class="col-12 px-md-5 my-auto">
+                                        <div class="form-group row">
+                                            <label for="lName" class="col-12 col-lg-4 my-auto px-0">Last Name</label>
+                                            <input type="text" name="lName" id="lName" class="form-control col-12 col-lg-8" placeholder="Last Name" aria-describedby="lName-helper">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-2">
+                                    <div class="col-12 px-md-5 my-auto">
+                                        <div class="form-group row">
+                                            <label for="email" class="col-12 col-lg-4 my-auto px-0">Emali</label>
+                                            <input type="email" name="email" id="email" class="form-control col-12 col-lg-8" placeholder="Emali" aria-describedby="email-helper">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-2">
+                                    <div class="col-12 px-md-5 my-auto">
+                                        <div class="form-group row">
+                                            <label for="cNumber" class="col-12 col-lg-4 my-auto px-0">Contact
+                                                Number</label>
+                                            <input type="number" name="cNumber" id="cNumber" class="form-control col-12 col-lg-8" placeholder="Contact Number" aria-describedby="cNumber-helper">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 pt-4">
+                                <div class="row pb-4 border-bottom d-block d-lg-none mb-4">
+                                    <div class="col-12 col-lg-6 px-2 px-md-5 mt-auto">
+                                        <h6 class="font-weight-normal mb-0">Membership Status</h6>
+                                    </div>
+                                </div>
+                                <div class="row py-2">
+                                    <div class="col-12 px-md-5 my-auto">
+                                        <div class="form-group row">
+                                            <label for="status" class="col-12 col-lg-4 my-auto px-0">Status</label>
+                                            <input type="text" name="status" id="status" class="form-control col-12 col-lg-8" placeholder="Status" aria-describedby="status-helper">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-2">
+                                    <div class="col-12 px-md-5 my-auto">
+                                        <div class="form-group row">
+                                            <label for="regDate" class="col-12 col-lg-4 my-auto px-0">Registered
+                                                date</label>
+                                            <input type="date" name="regDate" id="regDate" class="form-control col-12 col-lg-8" placeholder="Registered date" aria-describedby="regDate-helper">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-2">
+                                    <div class="col-12 px-md-5 my-auto">
+                                        <div class="form-group row">
+                                            <label for="usrType" class="col-12 col-lg-4 my-auto px-0">User Type</label>
+                                            <select name="usrType" id="usrType" class="form-control col-12 col-lg-8" placeholder="User Type" aria-describedby="usrType-helper">
+                                                <option value="">Select...</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-2">
+                                    <div class="col-6 px-1 py-1 my-auto text-right">
+                                        <button class="btn btn-main btn-sm px-5">UPDATE</button>
+                                    </div>
+                                    <div class="col-6 px-1 py-1 my-auto text-left">
+                                        <button class="btn btn-main-outline btn-sm px-5">CANCEL</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="password" role="tabpanel" aria-labelledby="password-tab">
+                        <div class="row pb-4 border-bottom">
+                            <div class="col-12 col-lg-6 px-2 px-md-5 my-auto">
+                                <h6 class="font-weight-normal">Password</h6>
+                                <small class="font-weight-normal color-light-grey">Change your password here</small>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-8 pt-4">
+                                <div class="row py-2">
+                                    <div class="col-12 px-md-5 my-auto">
+                                        <div class="form-group row">
+                                            <label for="prevPass" class="col-12 col-lg-4 my-auto px-0">Previous
+                                                Password</label>
+                                            <input type="password" name="prevPass" id="prevPass" class="form-control col-12 col-lg-8" placeholder="Previous Password" aria-describedby="prevPass-helper">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-2">
+                                    <div class="col-12 px-md-5 my-auto">
+                                        <div class="form-group row">
+                                            <label for="newPass" class="col-12 col-lg-4 my-auto px-0">New
+                                                Password</label>
+                                            <input type="password" name="newPass" id="newPass" class="form-control col-12 col-lg-8" placeholder="New Password" aria-describedby="newPass-helper">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-2">
+                                    <div class="col-12 px-md-5 my-auto">
+                                        <div class="form-group row">
+                                            <label for="confPass" class="col-12 col-lg-4 my-auto px-0">Confirm
+                                                Password</label>
+                                            <input type="password" name="confPass" id="confPass" class="form-control col-12 col-lg-8" placeholder="Confirm Password" aria-describedby="confPass-helper">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4 pt-2">
+                                <div class="py-2 ml-5">
+                                    <h5>Forgot Password?</h5>
+                                    <p class="color-light-grey">guide lines 1</p>
+                                    <p class="color-light-grey">guide lines 2</p>
+                                    <p class="color-light-grey">guide lines 3</p>
+                                </div>
+                                <div class="row py-2">
+                                    <div class="col-6 px-1 py-1 my-auto text-right">
+                                        <button class="btn btn-main btn-sm px-4">UPDATE</button>
+                                    </div>
+                                    <div class="col-6 px-1 py-1 my-auto text-left">
+                                        <button class="btn btn-main-outline btn-sm px-4">CANCEL</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="delivery-details" role="tabpanel" aria-labelledby="delivery-details-tab">
+                        <div class="row pb-4 border-bottom">
+                            <div class="col-12 col-lg-6 px-2 px-md-5 my-auto">
+                                <h6 class="font-weight-normal">Delivery details and Adress</h6>
+                                <small class="font-weight-normal color-light-grey">Change your delivery address
+                                    here</small>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row mt-4">
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <p>Current Address</p>
+                                    <p class="font-weight-bold">
+                                        name
+                                        <br>
+                                        no
+                                        <br>
+                                        street 1
+                                        <br>
+                                        stree 2
+                                        <br>
+                                        city
+                                        <br>
+                                        country
+                                    </p>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <p>Current Address</p>
+                                    <p class="font-weight-bold">
+                                        name
+                                        <br>
+                                        no
+                                        <br>
+                                        street 1
+                                        <br>
+                                        stree 2
+                                        <br>
+                                        city
+                                        <br>
+                                        country
+                                    </p>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <p>Current Address</p>
+                                    <p class="font-weight-bold">
+                                        name
+                                        <br>
+                                        no
+                                        <br>
+                                        street 1
+                                        <br>
+                                        stree 2
+                                        <br>
+                                        city
+                                        <br>
+                                        country
+                                    </p>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <p>Current Address</p>
+                                    <p class="font-weight-bold">
+                                        name
+                                        <br>
+                                        no
+                                        <br>
+                                        street 1
+                                        <br>
+                                        stree 2
+                                        <br>
+                                        city
+                                        <br>
+                                        country
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="mx-auto">
+                                <button class="btn btn-primary btn-sm mr-1">EDIT</button>
+                                <button class="btn btn-primary btn-sm">ADD NEW ADDRESS</button>
+                                <button class="btn btn-main btn-sm ml-1">UPDATE</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="user-ads" role="tabpanel" aria-labelledby="user-ads-tab">
+                        <div class="row">
+                            <div class="col-8 col-md-3">
+                                <div class="form-group my-auto">
+                                    <input type="text" name="keyword" id="keyword" class="form-control" placeholder="type to filter orders...." aria-describedby="keyword">
+                                </div>
+                            </div>
+                            <button class="btn btn-inverse btn-primary btn-sm">
+                                <i class="fa fa-filter"></i>&nbsp;&nbsp;filter
+                            </button>
+                        </div>
+                        <div class="row mt-5 overflow-auto">
+                            <table class="table">
+                                <thead>
+                                    <tr class="text-center">
+                                        <th scope="col">Image</th>
+                                        <th scope="col">Ad Title</th>
+                                        <th scope="col">Published Date</th>
+                                        <th scope="col">Price</th>
+                                        <th scope="col">Status</th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="text-center">
+                                        <th scope="row"><img src="/public/assets/img/tv.png"></th>
+                                        <td>Item Name</td>
+                                        <td>10/10/2020</td>
+                                        <td>RS.1000.00</td>
+                                        <td class="position-relative">
+                                            <span class="tick green"></span>
+                                            available
+                                        </td>
+                                        <td class="d-flex">
+                                            <button class="btn">
+                                                <img src="/public/assets/img/edit-btn.svg">
+                                            </button>
+                                            <button class="btn">
+                                                <img src="/public/assets/img/delete-btn.svg">
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr class="text-center">
+                                        <th scope="row"><img src="/public/assets/img/tv.png"></th>
+                                        <td>Item Name</td>
+                                        <td>10/10/2020</td>
+                                        <td>RS.1000.00</td>
+                                        <td class="position-relative">
+                                            <span class="tick red"></span>
+                                            sold
+                                        </td>
+                                        <td class="d-flex">
+                                            <button class="btn">
+                                                <img src="/public/assets/img/edit-btn.svg">
+                                            </button>
+                                            <button class="btn">
+                                                <img src="/public/assets/img/delete-btn.svg">
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="add-post" role="tabpanel" aria-labelledby="add-post-tab">
+                        <div class="row pb-4">
+                            <div class="col-12 col-lg-6 px-2 px-md-5 my-auto">
+                                <h6 class="font-weight-normal">Add Post</h6>
+                                <small class="font-weight-normal">Add a new post here</small>
+                            </div>
+                            <div class="col-12">
+                                <ul class="nav nav-tabs justify-content-center border-0" id="add-post-tab-sub-container" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link border-0 bg-light" id="category-tab" data-toggle="tab" role="tab" aria-controls="category" aria-selected="true">Category
+                                            <img src="/public/assets/img/tick.svg"></a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link border-0 bg-light" id="desc-tab" data-toggle="tab" role="tab" aria-controls="desc" aria-selected="false">Description
+                                            <img src="/public/assets/img/tick.svg"></a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link active border-0 bg-light" id="contact-tab" data-toggle="tab" role="tab" aria-controls="contact" aria-selected="false">Contact
+                                            <img src="/public/assets/img/tick.svg"></a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="add-post-tab-sub-container-content">
+                                    <div class="tab-pane fade" id="category" role="tabpanel" aria-labelledby="category-tab">...</div>
+                                    <div class="tab-pane fade" id="desc" role="tabpanel" aria-labelledby="desc-tab">
+                                        ...</div>
+                                    <div class="tab-pane fade show active" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-5 pt-4">
+                                                <div class="row py-2">
+                                                    <div class="col-12 px-md-5 my-auto">
+                                                        <div class="form-group row">
+                                                            <label for="name" class="col-12 col-lg-4 my-auto px-0">Name</label>
+                                                            <input type="text" name="name" id="name" class="form-control col-12 col-lg-8" placeholder="Name" aria-describedby="name-helper">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row py-2">
+                                                    <div class="col-12">
+                                                        <div class="card">
+                                                            <div class="card-body">
+                                                                <div class="row py-2">
+                                                                    <div class="col-12 px-md-5 my-auto">
+                                                                        <div class="form-group row">
+                                                                            <label for="pNumber" class="col-12 col-lg-4 my-auto px-0">Phone
+                                                                                Number</label>
+                                                                            <input type="number" name="pNumber" id="pNumber" class="form-control col-12 col-lg-8" placeholder="Phone Number" aria-describedby="pNumber-helper">
+                                                                            <div class="col-12 col-lg-8 offset-lg-4 pl-0">
+                                                                                <button class="btn btn-small color-main p-0">
+                                                                                    <small class="px-0">
+                                                                                        <i class="fa fa-plus-circle"></i>
+                                                                                        Add another phone number
+                                                                                    </small>
+                                                                                </button>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <label for="pNumber" class="col-12 col-lg-8 offset-lg-4 my-auto px-0 d-flex">
+                                                                                <span class="pr-2">011 22 22 222</span>
+                                                                                <img src="/public/assets/img/tick.svg">
+                                                                                <small class="ml-1 my-auto text-primary">Verified</small>
+                                                                                <button class="btn btn-small color-main p-0 pl-2">
+                                                                                    <small class="pl-1">
+                                                                                        <i class="fa fa-minus-circle"></i>
+                                                                                        Remove
+                                                                                    </small>
+                                                                                </button>
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row py-2">
+                                                    <div class="col-12 px-md-5 my-auto">
+                                                        <div class="form-group row">
+                                                            <label for="email" class="col-12 col-lg-4 my-auto px-0">Email</label>
+                                                            <input type="email" name="email" id="email" class="form-control col-12 col-lg-8" placeholder="Email" aria-describedby="email-helper">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row py-2">
+                                            <div class="col-6 px-1 py-1 my-auto text-right">
+                                                <button class="btn btn-primary btn-sm px-4">PREVIOUS</button>
+                                            </div>
+                                            <span class="px-0 px-sm-1 px-md-2 px-lg-4 my-auto">3/3</span>
+                                            <div class="col-5 px-1 py-1 my-auto text-left">
+                                                <button class="btn btn-main btn-sm px-4">POST AD</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/public/assets/js/script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+    <div id="footerTopBlock">
+        <div class="container" id="footerTopContainer">
+            <div class="row">
+                <div class="col-md-6" id="footerTop1">
+                    <p id="footerTopPara1">Know It All First</p>
+                    <p id="footerTopPara2">Never miss any thing From MyPower.lk By Signing Up To Our Newsletter</p>
+                </div>
+                <div class="col-md-6 text-center d-xl-flex justify-content-xl-center align-items-xl-center" id="footerTop2"><input class="d-xl-flex" type="email" id="footerTopEmail" placeholder="    Enter Your Email"><button class="btn btn-primary" id="footerSubscribeButton" type="button">subscribe</button></div>
+            </div>
+        </div>
+    </div>
+    <hr class="d-xl-flex justify-content-xl-start" id="footerHr2">
+    <div class="footer-clean">
+        <footer>
+            <div class="container justify-content-xl-center" id="footerContainer">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 text-center d-flex d-xl-flex flex-column justify-content-center align-items-center justify-content-xl-center align-items-xl-center item" id="footerLogoColumn"><img id="footerLogo" src="assets/img/LogoFinal.png">
+                        <p class="text-left d-xl-flex" id="footerLogoPara">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod Lorem ipsum &nbsp;</p>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3><strong>My Account</strong></h3>
+                        <ul>
+                            <li><a href="#">option 1</a></li>
+                            <li><a href="#">option 1</a></li>
+                            <li><a href="#">option 1</a></li>
+                            <li><a href="#">option 1</a></li>
+                            <li><a href="#">option 1</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3 class="footerHeading"><strong>Information</strong></h3>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Payments</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 text-center d-flex d-xl-flex flex-column justify-content-xl-center align-items-xl-center item social">
+                        <div class="d-flex justify-content-between align-content-center align-items-xl-center" id="footerSocialDiv"><a href="#"><img src="assets/img/facebook%201.svg"></a><a href="#"><img id="footerTwitter" src="assets/img/twitter1.svg"></a><a href="#"><img id="footerGoogle" src="assets/img/google-plus1.svg"></a><a href="#"><img id="footerRss" src="assets/img/rss.svg"></a></div>
+                        <div
+                            class="text-left d-flex flex-column justify-content-between align-content-center" id="footerContactDiv">
+                            <p class="footerContactPara"><i class="fas fa-map-marker-alt"></i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Address, strret no, state &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;country</p>
+                            <p class="footerContactPara"><img src="assets/img/phone.svg">&nbsp; &nbsp; &nbsp; &nbsp; phone number</p>
+                            <p class="footerContactPara"><img src="assets/img/Mask%20Group%207.svg">&nbsp; &nbsp; &nbsp; &nbsp; Email</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Media-Slider-Bootstrap-3.js"></script>
+    <script src="assets/js/MUSA_product-display.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>ProductDisplay</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/best-carousel-slide.css">
+    <link rel="stylesheet" href="assets/css/Footer-Clean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Minimal-tabs-1.css">
+    <link rel="stylesheet" href="assets/css/Minimal-tabs.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/styles-1.css">
+    <link rel="stylesheet" href="assets/css/styles2.css">
+    <link rel="stylesheet" href="assets/css/Team-Boxed.css">
+</head>
+
+<body>
+    <div id="navBarBlock">
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean" id="navBar">
+            <div class="container"><a class="navbar-brand" id="navBarlogo" href="#"><img id="logo" src="assets/img/LogoFinal.png"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" id="navBarToggle"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" id="homeLink" href="#">HOME</a></li>
+                        <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" id="productsDropDown" href="#">PRODUCTS</a>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                        </li>
+                        <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" id="adsDropDown" href="#">ADS</a>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                        </li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" id="contactUsLink" href="#">CONTACT US</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#"><i class="fa fa-search" id="searchIcon"></i></a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" id="cartLink" href="#"><img id="cartImage" src="assets/img/buy2.svg"><div id="cartAmount"><p class="text-center" id="cartAmountPara">5</p></div></a></li>
+                        <li class="nav-item" role="presentation">
+                            <p id="cartPrice">2000.00 lkr</p>
+                        </li>
+                    </ul>
+            </div>
+    </div>
+    </nav>
+    </div><div id="mainProductBlock">
+        <div class="container" id="mainProductContainer">
+            <div class="row" id="mainProductRow">
+                <div class="col-md-6" id="mainProductLeft">
+                    <div class="row" id="mainProductDisplay">
+                        <div class="col">
+                            <p id="mainProductPath">Home / Products / Item name</p>
+                        </div>
+                    </div>
+                    <div class="row" id="mainProductImageSlider">
+                        <div class="col"><img id="mainProductImage" src="assets/img/product@2x.png"></div>
+                    </div>
+                </div>
+                <div class="col-md-6" id="mainProductRight">
+                    <div class="row" id="mainProductName">
+                        <div class="col">
+                            <p id="mainProductCategory">Category</p>
+                            <p id="mainProductNamePara">Product Name</p>
+                        </div>
+                    </div>
+                    <div class="row" id="rating">
+                        <div class="col" id="ratingColumn"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star" id="greyStar"></i>
+                            <p id="reviews">5 reviews</p>
+                        </div>
+                    </div>
+                    <div class="row" id="price">
+                        <div class="col" id="priceColumn">
+                            <p id="discountPrice">Rs. 1000.00</p>
+                            <div class="text-center" id="discount">
+                                <p id="discountPercentage">-50%</p>
+                            </div><p id="initialPrice"><del>Rs. 2000.00</del></p></div>
+                    </div>
+                    <div class="row text-justify" id="description">
+                        <div class="col" id="descriptionColumn">
+                            <p class="text-justify" id="mainProductDescription">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                                nonumy eirmod</p>
+                            <p class="mainProductSpecs">- spec 1</p>
+                            <p class="mainProductSpecs">- spec 1</p>
+                            <p class="mainProductSpecs">- spec 1</p>
+                        </div>
+                    </div>
+                    <div class="row" id="addToCart">
+                        <div class="col">
+                            <hr class="hrAddToCart">
+                            <div class="row" id="addToCartButtonRow">
+                                <div class="col" id="itemColumn">
+                                    <p>#Items</p>
+                                </div>
+                                <div class="col"><button class="btn btn-primary" id="addToCartButton" type="button">ADD TO CART</button></div>
+                            </div>
+                            <div class="row" id="addToWhishList">
+                                <div class="col" id="addToWishListColumn"><img src="assets/img/heart.svg">
+                                    <p id="addToWishListPara">Add To Wishlist</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col" id="mainProductShareColumn">
+                                    <p id="mainProductSharePara">Share</p><a class="mainProductShareLink" href="#"><img src="assets/img/Mask%20Group%206.svg"></a><a class="mainProductShareLink" href="#"><img src="assets/img/facebook%20(1).svg"></a><a id="twitter" class="mainProductShareLink" href="#"><img src="assets/img/twitter.svg"></a>
+                                    <a id="google" class="mainProductShareLink" href="#"><img src="assets/img/google-plus.svg"></a>
+                                </div>
+                            </div>
+                            <hr class="hrAddToCart">
+                        </div>
+                    </div>
+                    <div class="row" id="policy">
+                        <div class="col"><a class="policyLinks" href="#"><img src="assets/img/delivaryPolicyIcon.svg"><p class="policyLinksPara">Delivery Policy</p></a><a class="policyLinks" href="#"><img src="assets/img/credit-card.svg"><p class="policyLinksPara">Payment Policy</p></a><a class="policyLinks" href="#"><img src="assets/img/shield.svg"><p class="policyLinksPara">Warranty Policy</p></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="minimal-tabs">
+        <ul class="nav nav-tabs nav-justified text-uppercase text-left" id="tabItems">
+            <li class="nav-item" id="tab1"><a class="nav-link" role="tab" data-toggle="tab" id="tabLink1" href="#tab-1">DESCRIPTION</a></li>
+            <li class="nav-item" id="tab2"><a class="nav-link active" role="tab" data-toggle="tab" id="tabLink2" href="#tab-2">REVieWS</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane" role="tabpanel" id="tab-1">
+                <div class="row" id="descriptionPane">
+                    <div class="col" id="deatilsColumn">
+                        <div class="row" id="deatilsRow">
+                            <div class="col">
+                                <p id="deatilsHeading">DETAILS</p>
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="detailsPara">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                            sed diam nonumy eirmod</p>
+                                        <p class="detailsPara">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                            sed diam nonumy eirmod</p>
+                                        <p class="detailsPara">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                            sed diam nonumy eirmod</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="specificationColumn">
+                        <div class="row" id="specificationRow">
+                            <div class="col" id="specColumn">
+                                <p id="specificationHeading">Specifications</p>
+                                <div class="row specRow">
+                                    <div class="col">
+                                        <p id="specOption1" class="specOptionPara">Option 1</p>
+                                    </div>
+                                    <div class="col">
+                                        <p id="specDescription1" class="specDescriptionPara">description</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row specRow">
+                                    <div class="col">
+                                        <p id="specOption2" class="specOptionPara">Option 2</p>
+                                    </div>
+                                    <div class="col">
+                                        <p id="specDescription2" class="specDescriptionPara">description</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row specRow">
+                                    <div class="col">
+                                        <p id="specOption3" class="specOptionPara">Option 3</p>
+                                    </div>
+                                    <div class="col">
+                                        <p id="specDescription3" class="specOptionPara">description</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row specRow">
+                                    <div class="col">
+                                        <p id="specOption4" class="specOptionPara">Option 4</p>
+                                    </div>
+                                    <div class="col">
+                                        <p id="specDescription4" class="specOptionPara">description</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row specRow">
+                                    <div class="col">
+                                        <p id="specOption5" class="specOptionPara">Option 5</p>
+                                    </div>
+                                    <div class="col">
+                                        <p id="specDescription5" class="specOptionPara">description</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row specRow">
+                                    <div class="col">
+                                        <p id="specOption6" class="specOptionPara">Option 6</p>
+                                    </div>
+                                    <div class="col">
+                                        <p id="specDescription6" class="specDescriptionPara">description</p>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane active" role="tabpanel" id="tab-2">
+                <h1>NOT AVAILABLE IN UI DESIGN</h1>
+            </div>
+        </div>
+    </div>
+    <div id="relatedProductBlock">
+        <div class="container d-flex flex-column justify-content-between align-items-center align-content-center" id="relatedProductsContainer">
+            <div class="row" id="realatedProductParaMainRow">
+                <div class="col-md-12">
+                    <div class="row" id="relatedProductsParaRow">
+                        <div class="col">
+                            <p class="text-center" id="relatedProductsPara">Related Products</p>
+                        </div>
+                    </div>
+                    <div class="row" id="relatedProductsDesRow">
+                        <div class="col">
+                            <p class="text-center" id="relatedProductDes">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod Lorem ipsum</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-between align-items-center align-content-center" id="relatedProductImageRow">
+                <div class="col d-flex d-xl-flex justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center relatedProductsColumn" id="relatedProductColumn">
+                    <div class="d-xl-flex justify-content-xl-center align-items-xl-center" id="relatedProduct1">
+                        <div id="relatedProductImage1">
+                            <div id="realtedNewLogo2">
+                                <p class="text-center" id="relatedProductNew">NEW</p>
+                            </div><img class="relatedProductImage" src="assets/img/pngwave1.png">
+                            <div id="relatedName2">
+                                <p id="relatedProductName1">Item Name</p>
+                                <div id="relatedPrice2">
+                                    <p id="relatedProductPrice1">Rs. 1000.00</p><p id="relatedProductPreviousPrice2"><del>Rs. 2000.00</del></p></div>
+                            </div>
+                        </div>
+                        <div class="justify-content-around align-content-around" id="relatedProductSale1">
+                            <p id="onSale2">ON SALE</p><img id="buyicon" src="assets/img/buy1.svg"><img id="heartIcon" src="assets/img/heart1.svg"><i class="fa fa-search" id="relatedSearch"></i></div>
+                    </div>
+                </div>
+                <div class="col d-flex d-xl-flex justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center relatedProductsColumn" id="relatedProductColumn">
+                    <div class="d-xl-flex justify-content-xl-center align-items-xl-center" id="relatedProduct1">
+                        <div id="relatedProductImage1">
+                            <div id="realtedNewLogo2">
+                                <p class="text-center" id="relatedProductNew">NEW</p>
+                            </div><img class="relatedProductImage" src="assets/img/pngwave1.png">
+                            <div id="relatedName2">
+                                <p id="relatedProductName1">Item Name</p>
+                                <div id="relatedPrice2">
+                                    <p id="relatedProductPrice1">Rs. 1000.00</p><p id="relatedProductPreviousPrice2"><del>Rs. 2000.00</del></p></div>
+                            </div>
+                        </div>
+                        <div class="justify-content-around align-content-around" id="relatedProductSale1">
+                            <p id="onSale2">ON SALE</p><img id="buyicon" src="assets/img/buy1.svg"><img id="heartIcon" src="assets/img/heart1.svg"><i class="fa fa-search" id="relatedSearch"></i></div>
+                    </div>
+                </div>
+                <div class="col d-flex d-xl-flex justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center relatedProductsColumn" id="relatedProductColumn">
+                    <div class="d-xl-flex justify-content-xl-center align-items-xl-center" id="relatedProduct1">
+                        <div id="relatedProductImage1">
+                            <div id="realtedNewLogo2">
+                                <p class="text-center" id="relatedProductNew">NEW</p>
+                            </div><img class="relatedProductImage" src="assets/img/pngwave1.png">
+                            <div id="relatedName2">
+                                <p id="relatedProductName1">Item Name</p>
+                                <div id="relatedPrice2">
+                                    <p id="relatedProductPrice1">Rs. 1000.00</p><p id="relatedProductPreviousPrice2"><del>Rs. 2000.00</del></p></div>
+                            </div>
+                        </div>
+                        <div class="justify-content-around align-content-around" id="relatedProductSale1">
+                            <p id="onSale2">ON SALE</p><img id="buyicon" src="assets/img/buy1.svg"><img id="heartIcon" src="assets/img/heart1.svg"><i class="fa fa-search" id="relatedSearch"></i></div>
+                    </div>
+                </div>
+                <div class="col d-flex d-xl-flex justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center relatedProductsColumn" id="relatedProductColumn">
+                    <div class="d-xl-flex justify-content-xl-center align-items-xl-center" id="relatedProduct1">
+                        <div id="relatedProductImage1">
+                            <div id="realtedNewLogo2">
+                                <p class="text-center" id="relatedProductNew">NEW</p>
+                            </div><img class="relatedProductImage" src="assets/img/pngwave1.png">
+                            <div id="relatedName2">
+                                <p id="relatedProductName1">Item Name</p>
+                                <div id="relatedPrice2">
+                                    <p id="relatedProductPrice1">Rs. 1000.00</p><p id="relatedProductPreviousPrice2"><del>Rs. 2000.00</del></p></div>
+                            </div>
+                        </div>
+                        <div class="justify-content-around align-content-around" id="relatedProductSale1">
+                            <p id="onSale2">ON SALE</p><img id="buyicon" src="assets/img/buy1.svg"><img id="heartIcon" src="assets/img/heart1.svg"><i class="fa fa-search" id="relatedSearch"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <div id="footerTopBlock">
+        <div class="container" id="footerTopContainer">
+            <div class="row">
+                <div class="col-md-6" id="footerTop1">
+                    <p id="footerTopPara1">Know It All First</p>
+                    <p id="footerTopPara2">Never miss any thing From MyPower.lk By Signing Up To Our Newsletter</p>
+                </div>
+                <div class="col-md-6 text-center d-xl-flex justify-content-xl-center align-items-xl-center" id="footerTop2"><input class="d-xl-flex" type="email" id="footerTopEmail" placeholder="    Enter Your Email"><button class="btn btn-primary" id="footerSubscribeButton" type="button">subscribe</button></div>
+            </div>
+        </div>
+    </div>
+    <hr class="d-xl-flex justify-content-xl-start" id="footerHr2">
+    <div class="footer-clean">
+        <footer>
+            <div class="container justify-content-xl-center" id="footerContainer">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 text-center d-flex d-xl-flex flex-column justify-content-center align-items-center justify-content-xl-center align-items-xl-center item" id="footerLogoColumn"><img id="footerLogo" src="assets/img/LogoFinal.png">
+                        <p class="text-left d-xl-flex" id="footerLogoPara">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod Lorem ipsum &nbsp;</p>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3><strong>My Account</strong></h3>
+                        <ul>
+                            <li><a href="#">option 1</a></li>
+                            <li><a href="#">option 1</a></li>
+                            <li><a href="#">option 1</a></li>
+                            <li><a href="#">option 1</a></li>
+                            <li><a href="#">option 1</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3 class="footerHeading"><strong>Information</strong></h3>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Payments</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 text-center d-flex d-xl-flex flex-column justify-content-xl-center align-items-xl-center item social">
+                        <div class="d-flex justify-content-between align-content-center align-items-xl-center" id="footerSocialDiv"><a href="#"><img src="assets/img/facebook%201.svg"></a><a href="#"><img id="footerTwitter" src="assets/img/twitter1.svg"></a><a href="#"><img id="footerGoogle" src="assets/img/google-plus1.svg"></a><a href="#"><img id="footerRss" src="assets/img/rss.svg"></a></div>
+                        <div
+                            class="text-left d-flex flex-column justify-content-between align-content-center" id="footerContactDiv">
+                            <p class="footerContactPara"><i class="fas fa-map-marker-alt"></i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Address, strret no, state &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;country</p>
+                            <p class="footerContactPara"><img src="assets/img/phone.svg">&nbsp; &nbsp; &nbsp; &nbsp; phone number</p>
+                            <p class="footerContactPara"><img src="assets/img/Mask%20Group%207.svg">&nbsp; &nbsp; &nbsp; &nbsp; Email</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Media-Slider-Bootstrap-3.js"></script>
+    <script src="assets/js/MUSA_product-display.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
