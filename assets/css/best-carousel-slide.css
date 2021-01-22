@@ -68,3 +68,132 @@ span {
   font-weight: inherit;
 }
 
+#locationDiv {
+}
+
+#hr1 {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  #catDiv {
+    width: 85px;
+  }
+}
+
+#catDiv {
+  width: 85px;
+}
+
+@media (max-width: 992px) {
+  #catColumn {
+    display: none;
+  }
+}
+
+#catColumn {
+  width: 250px;
+  max-width: 250px;
+}
+
+#catDiv {
+  width: 250px;
+  background: #ffffff;
+  padding: 10px;
+}
+
+#catPara {
+  margin: 0;
+  margin-top: 20px;
+}
+
+#formCheck-3 {
+}
+
+.catPara {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-family: Alata, sans-serif;
+  font-weight: 500;
+}
+
+.catHr {
+  margin-top: 0;
+}
+
+#categoryButton {
+  background: rgb(255,255,255);
+  color: #434343;
+  border-style: solid;
+  border-color: #9B235D;
+  max-width: 200px;
+  width: 180px;
+  margin-left: 10px;
+}
+
+@media (min-width: 992px) {
+  #categoryButton {
+    background: rgb(255,255,255);
+    color: #434343;
+    border-style: solid;
+    border-color: #9B235D;
+    max-width: 200px;
+    width: 180px;
+    margin-left: 10px;
+    display: none;
+  }
+}
+
+#categoryIcon {
+}
+
+#catPathDiv {
+  max-width: 1920px;
+  width: 100%;
+  min-width: 20%;
+}
+
+#catPathParaDiv {
+  max-width: 1000px;
+  width: 100%;
+}
+
+#catPathPara {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  color: rgb(136,136,136);
+}
+
+#sortDiv {
+  max-width: 1000px;
+  width: 100%;
+}
+
+#sortButton {
+  height: 25px;
+  margin-left: 5px;
+  background: rgb(155,35,93);
+  padding-top: 0;
+  padding-bottom: 3px;
+  border-style: none;
+}
+
+#proCol {
+}
+
+#proDiv {
+  max-width: 1300px;
+  width: 100%;
+  min-width: 320px;
+}
+
+#hr2 {
+  margin-top: 0;
+  width: 100%;
+}
+
+#proRow {
+}
+

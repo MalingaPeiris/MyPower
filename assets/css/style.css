@@ -236,3 +236,57 @@ input[type=number] {
   transform: scaleX(1);
 }
 
+@media (max-width: 768px) {
+  #seacrhColumn {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  #seacrhColumn {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+#searchBarDiv {
+  width: 100%;
+  padding-left: 3%;
+  height: 118px;
+}
+
+#searchButtonPurple {
+  background: rgb(155,35,93);
+  color: rgb(255,255,255);
+}
+
+#locationButton {
+  background: rgb(255,255,255);
+  color: #434343;
+  border-style: solid;
+  border-color: #9B235D;
+  max-width: 200px;
+  width: 180px;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+}
+
+#locationIcon {
+  color: rgb(155,35,93);
+}
+
+#productCategoryColumn {
+  display: flex;
+  max-width: 30%;
+}
+
+#productColumn {
+  max-width: 70%;
+}
+
+button, input {
+  overflow: visible;
+}
+
