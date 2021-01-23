@@ -2,6 +2,7 @@
   padding: 50px 0;
   background-color: #fff;
   color: #4b4c4d;
+  padding-top: 20px;
 }
 
 .footer-clean h3 {
@@ -114,6 +115,8 @@
   margin: 50px;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-right: 50px;
+  margin-left: 20px;
 }
 
 @media (max-width: 600px) {
@@ -187,6 +190,7 @@
   opacity: 1;
   font-size: 30px;
   font-family: Lato, sans-serif;
+  margin: 0;
 }
 
 @media (max-width: 600px) {
@@ -211,7 +215,7 @@
 
 #footerTopBlock {
   max-width: 1920px;
-  margin-top: 180px;
+  margin-top: 80px;
 }
 
 @media (max-width: 600px) {
