@@ -201,3 +201,94 @@ span {
   margin: 0;
 }
 
+.postCategorySelection {
+  max-width: 1920px;
+  min-width: 320px;
+  height: 700px;
+  background: #ffffff;
+}
+
+.postAddCategoryDiv {
+  max-width: 700px;
+  background: #ffffff;
+  color: rgb(67,67,67);
+  box-shadow: 1px 1px 5px 2px rgb(152,151,151);
+  border-style: none;
+  border-radius: 5px;
+  height: auto;
+}
+
+.selectCategory {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: rgb(155,35,93);
+  font-size: 20px;
+}
+
+.selectCategoryPara {
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.fas.fa-mobile-alt {
+  font-size: 16px;
+  color: rgb(155,35,93);
+}
+
+.categoryHr {
+  margin-top: 0;
+  margin-bottom: 5px;
+  max-width: 250px;
+  min-width: 200px;
+}
+
+.selectCategoryDiv1 {
+  min-width: 200px;
+  max-width: 300px;
+  width: 300px;
+}
+
+.fas.fa-briefcase {
+  color: rgb(155,35,93);
+}
+
+.fas.fa-car-side {
+  color: rgb(155,35,93);
+}
+
+.fas.fa-paw {
+  color: rgb(155,35,93);
+}
+
+.fas.fa-hammer {
+  color: rgb(155,35,93);
+}
+
+.material-icons {
+  color: rgb(155,35,93);
+}
+
+.fas.fa-book-open {
+  color: rgb(155,35,93);
+}
+
+.categoryList {
+  width: 300px;
+  background: #ffffff;
+  height: 200px;
+  border-left: 1px solid rgb(167,167,167) ;
+  max-width: 300px;
+  min-width: 200px;
+}
+
+.categoryMainDiv {
+  height: auto;
+}
+
+.categoryVertiHr {
+}
+
