@@ -1,0 +1,65 @@
+@media (max-width: 768px) {
+  .termsHeading {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    font-size: 32px;
+  }
+}
+
+.termsHeading {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(67,67,67);
+}
+
+.termsDiv {
+  max-width: 1920px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.termsContentDiv {
+  width: 100%;
+  max-width: 1140px;
+  min-width: 320px;
+  height: auto;
+  box-shadow: 2px 2px 10px 2px rgb(238,238,238);
+  border-radius: 5px;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+  border: 1px solid rgb(255,255,255) ;
+}
+
+@media (max-width: 768px) {
+  .termsTopic {
+    color: rgb(155,35,93);
+    opacity: 0.70;
+    font-size: 20px;
+  }
+}
+
+.termsTopic {
+  color: rgb(155,35,93);
+  opacity: 0.70;
+}
+
+@media (max-width: 768px) {
+  .termsPara {
+    font-family: Poppins, sans-serif;
+    color: rgb(67,67,67);
+    font-size: 14px;
+  }
+}
+
+.termsPara {
+  font-family: Poppins, sans-serif;
+  color: rgb(67,67,67);
+  text-align: left;
+}
+

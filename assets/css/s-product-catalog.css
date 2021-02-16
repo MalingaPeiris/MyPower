@@ -23,7 +23,8 @@
 
 .product-wrap img {
   display: block;
-  width: 100%;
+  width: 208px;
+  height: 208px;
 }
 
 .actions {
